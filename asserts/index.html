@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulaire de styliser</title>
+</head>
+<body>
+
+    <div class="box">
+        <form class="formBloc">
+
+            <h3><strong>Identifiez</strong>-vous</h3>
+            <div class="formGroup">
+                <label for="utilisateur">Utilisateur</label>
+                <input type="text" id="utilisateur" required maxlength="16">
+            </div>
+
+            <div class="formGroup">
+                <label for="mdp">Mot de passe</label>
+                <input  type="text" id="mdp" required maxlength="16">
+            </div>
+
+            <div class="formGroup">
+                <input  type="submit" value="LOGIN" class="buttonSubmit" required maxlength="16">
+            </div>
+
+            <div class="mdpPerdu">
+                <a href="#">Mot de passe perdu ?</a>
+            </div>
+            
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
