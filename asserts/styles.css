@@ -85,3 +85,31 @@ body {
     background-position: 100%;
     border: 3px solid #fff;
 }
+
+.formBloc .mdpPerdu a {
+    color: #8b97d7;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+}
+
+.formBloc .mdpPerdu a:hover {
+    border-bottom-color: #8b97d7;
+}
+
+.formBloc .formGroup:focus-within label,
+.formBloc .formGroup.animation label {
+   top: 0px;
+   transform: translateY(-100%);
+   color: #8b97d7;
+}
+
+.formBloc .formGroup:focus-within input,
+.formBloc .formGroup.animation input {
+    border-bottom-color: #122cc0;
+} 
+
+
+
