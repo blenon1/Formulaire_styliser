@@ -26,6 +26,10 @@ body {
     font-weight: 900;
 }
 
+h3 {
+    margin: 20px 0;
+}
+
 .formBloc {
     color: #666;
     font-size: 28px;
